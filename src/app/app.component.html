@@ -1,4 +1,9 @@
 
-
-
-<router-outlet />
+<div style="text-align:center">
+  <h1>Learning Life Cycle Hooks</h1>
+  <div>
+    <button (click)="increment()">Increment</button>
+    <button (click)="decrement()">Decrement</button>
+    <app-child [myCounter]="counter"></app-child> 
+  </div>
+</div>
